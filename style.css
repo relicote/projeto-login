@@ -244,9 +244,11 @@ form.sign-up-form{
     transform: translateX(0px);
 }
 
+/* CORRIGIR VISIBILIDADE DO 'CADASTRE-SE' */
 
 .container.sign-up-mode .left-panel{
     pointer-events: none;
+    visibility: hidden;
 }
 
 .container.sign-up-mode .right-panel{
@@ -256,3 +258,4 @@ form.sign-up-form{
 .container.sign-up-mode .signin-signup{
     left: 25%;
 }
+
