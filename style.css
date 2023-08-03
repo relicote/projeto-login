@@ -49,6 +49,7 @@ body, input{
     display: grid;
     grid-template-columns: 1fr;
     z-index: 5;
+    transition: 1s 0.7s ease-in-out;
 }
 
 form{
@@ -243,6 +244,15 @@ form.sign-up-form{
     transform: translateX(0px);
 }
 
+
+.container.sign-up-mode .left-panel{
+    pointer-events: none;
+}
+
 .container.sign-up-mode .right-panel{
     pointer-events: all;
+}
+
+.container.sign-up-mode .signin-signup{
+    left: 25%;
 }
